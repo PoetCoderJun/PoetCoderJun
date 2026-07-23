@@ -4,7 +4,7 @@
 
 I'm an AI builder based in Hong Kong. I build AI products and opinionated workflows for people who want to work with more freedom.
 
-My current focus is AI video production, Vibe Working, and reusable Agent Skills. For me, code is leverage: a way for one person to turn an idea into a real product.
+My current focus is AI video production and reusable Agent Skills. For me, code is leverage: a way for one person to turn an idea into a real product.
 
 📕 [Xiaohongshu · 诗人程序员 Jun.AI](https://www.xiaohongshu.com/user/profile/5b40fe744eacab72c9f480ef)
 
@@ -12,9 +12,9 @@ My current focus is AI video production, Vibe Working, and reusable Agent Skills
 
 ## 🆕 New: AI Video Production
 
-I'm building an application that takes talking-head footage from raw recording to a polished video: cutting speech, generating subtitles, planning motion graphics, and packaging the final delivery.
+I'm building [**PoetCut**](https://poetcut.online/), an AI video editor for Chinese talking-head creators. It removes pauses, filler words, retakes, and repeated phrases, then generates editable subtitles, chapter progress, and keyword highlights.
 
-🎬 **AI Video Auto Cut** — the end-to-end application, currently in private beta
+🎬 [**PoetCut**](https://poetcut.online/) — upload a raw recording and export a polished, publish-ready video; now in public beta
 
 🧩 [**producing-talking-head-video-mg**](https://github.com/PoetCoderJun/producing-talking-head-video-mg) — a narration-driven Skill for adding motion graphics to edited talking-head videos, with optional synchronized screen recording
 
@@ -24,9 +24,7 @@ I'm building an application that takes talking-head footage from raw recording t
 
 The projects that best represent what I'm building now.
 
-🎬 **AI Video Auto Cut** — turn a raw talking-head recording into an edited, subtitled, presentation-ready video
-
-🧠 **Vibe Working** — a practical course and working method for making Agents part of everyday knowledge work
+🎬 [**PoetCut**](https://poetcut.online/) — AI editing for Chinese talking-head videos: speech cleanup, editable subtitles, chapters, progress bars, and keyword highlights
 
 🧩 [**producing-talking-head-video-mg**](https://github.com/PoetCoderJun/producing-talking-head-video-mg) — package repeatable video-production judgment into a reusable Agent Skill
 
@@ -38,29 +36,4 @@ I build tools for creators who want to spend less time on repetitive editing and
 
 🧩 [**producing-talking-head-video-mg**](https://github.com/PoetCoderJun/producing-talking-head-video-mg) — narration analysis, MG planning, asset selection, Remotion composition, preview, and final packaging
 
-🎬 **AI Video Auto Cut** — speech cleanup, subtitle generation, screen-recording alignment, and automated delivery
-
----
-
-## 🧠 Vibe Working & Agent Workflows
-
-Vibe Working is my attempt to answer a practical question: how can ordinary knowledge workers make an Agent part of a real, maintainable working system?
-
-The work covers:
-
-- designing a workspace that an Agent can understand
-- managing context instead of endlessly rewriting prompts
-- using Git and documents as durable project memory
-- turning repeated workflows into reusable Skills
-- letting Agents produce inspectable, editable artifacts
-
----
-
-## About me
-
-- AI builder, independent maker, and content creator in Hong Kong
-- Previously worked across leading internet, state-owned enterprise, and securities teams
-- ACM-ICPC Asia Regional Silver Medalist
-- Exploring one-person companies and a less exhausting way to create value
-
-> Build more. Work freer. Skip the pointless grind.
+🎬 [**PoetCut**](https://poetcut.online/) — speech cleanup, subtitle editing, chapter packaging, and local browser export in one workflow
