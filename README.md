@@ -1,45 +1,66 @@
-<div align="center">
+# Hi, I'm Jun 👋
 
-# Coder.Jun
+**English** · [中文](README.zh-CN.md)
 
-### AI Builder in Hong Kong · Poet, programmer, and solo maker
+I'm an AI builder based in Hong Kong. I build AI products and opinionated workflows for people who want to work with more freedom.
 
-I build AI tools that turn messy, real-world workflows into repeatable systems.
+My current focus is AI video production, Vibe Working, and reusable Agent Skills. For me, code is leverage: a way for one person to turn an idea into a real product.
 
-我用 AI 做真实可用的产品，探索一人公司、自由工作，以及更少内卷的创造方式。
+📕 [Xiaohongshu · 诗人程序员 Jun.AI](https://www.xiaohongshu.com/user/profile/5b40fe744eacab72c9f480ef)
 
-</div>
+---
 
-## What I'm building
+## 🆕 New: AI Video Production
 
-- 🎬 **AI video production** — tools and workflows that take talking-head videos from raw footage to polished delivery
-- 🧠 **Vibe Working** — a practical way to make Agents part of everyday knowledge work
-- 🧩 **Reusable Skills** — packaging hard-won workflows into capabilities that can be used again
-- 🚀 **Tools for solo makers** — small, focused products that help one person do the work of a capable team
+I'm building an application that takes talking-head footage from raw recording to a polished video: cutting speech, generating subtitles, planning motion graphics, and packaging the final delivery.
 
-## Open source
+🎬 **AI Video Auto Cut** — the end-to-end application, currently in private beta
 
-### [Producing Talking-Head Video MG](https://github.com/PoetCoderJun/producing-talking-head-video-mg)
+🧩 [**producing-talking-head-video-mg**](https://github.com/PoetCoderJun/producing-talking-head-video-mg) — a narration-driven Skill for adding motion graphics to edited talking-head videos, with optional synchronized screen recording
 
-A narration-driven Skill for planning and composing motion graphics around edited talking-head videos, with optional synchronized screen recording.
+---
 
-More working systems and selected tools will be published as they become ready for others to use.
+## ⭐ Featured work
 
-## How I work
+The projects that best represent what I'm building now.
 
-- Start from a real workflow, not a technology demo
-- Build systems that leave inspectable, editable artifacts
-- Turn repeated judgment into reusable Skills
-- Use AI to create more freedom, not more busywork
+🎬 **AI Video Auto Cut** — turn a raw talking-head recording into an edited, subtitled, presentation-ready video
 
-## Background
+🧠 **Vibe Working** — a practical course and working method for making Agents part of everyday knowledge work
 
-Previously worked across leading internet, state-owned enterprise, and securities teams.
+🧩 [**producing-talking-head-video-mg**](https://github.com/PoetCoderJun/producing-talking-head-video-mg) — package repeatable video-production judgment into a reusable Agent Skill
 
-ACM-ICPC Asia Regional Silver Medalist.
+---
 
-## Find me
+## 🎥 Video & Content
 
-- [小红书：诗人程序员 Jun.AI](https://www.xiaohongshu.com/user/profile/5b40fe744eacab72c9f480ef)
+I build tools for creators who want to spend less time on repetitive editing and more time on the idea itself.
+
+🧩 [**producing-talking-head-video-mg**](https://github.com/PoetCoderJun/producing-talking-head-video-mg) — narration analysis, MG planning, asset selection, Remotion composition, preview, and final packaging
+
+🎬 **AI Video Auto Cut** — speech cleanup, subtitle generation, screen-recording alignment, and automated delivery
+
+---
+
+## 🧠 Vibe Working & Agent Workflows
+
+Vibe Working is my attempt to answer a practical question: how can ordinary knowledge workers make an Agent part of a real, maintainable working system?
+
+The work covers:
+
+- designing a workspace that an Agent can understand
+- managing context instead of endlessly rewriting prompts
+- using Git and documents as durable project memory
+- turning repeated workflows into reusable Skills
+- letting Agents produce inspectable, editable artifacts
+
+---
+
+## About me
+
+- AI builder, independent maker, and content creator in Hong Kong
+- Previously worked across leading internet, state-owned enterprise, and securities teams
+- ACM-ICPC Asia Regional Silver Medalist
+- Exploring one-person companies and a less exhausting way to create value
 
 > Build more. Work freer. Skip the pointless grind.
