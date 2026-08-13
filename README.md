@@ -2,40 +2,37 @@
 
 **English** · [中文](README.zh-CN.md)
 
-I'm an AI builder based in Hong Kong, currently building an end-to-end AI video-production system for talking-head creators.
+I'm an AI builder in Hong Kong. I build open Agent Skills that turn spoken media into finished artifacts—not just model outputs.
 
-📕 [Xiaohongshu · 诗人程序员 Jun.AI](https://www.xiaohongshu.com/user/profile/5b40fe744eacab72c9f480ef)
+📕 [Xiaohongshu · 诗人程序员 Jun.AI](https://www.xiaohongshu.com/user/profile/5b40fe744eacab72c9f480ef) · 🎬 [PoetCut](https://poetcut.online/)
 
----
-
-## 🆕 New: From raw recording to packaged video
+## From speech to something people can use
 
 ```text
-Raw talking video
-  → clean-talking-video: remove failed takes, filler, repetition, and long pauses
-  → edited video + timeline-accurate SRT
-  → MotionTalk: visual direction, motion graphics, captions, chapters, and quality gates
-  → publish-ready packaged video
+recording / talking video
+  ├─ dingtalk-style-minutes → graphic minutes + structured notes + full transcript
+  └─ clean-talking-video    → edited video + timeline-accurate SRT
+                                  ↓
+                              MotionTalk → motion-graphics video
 ```
 
-🎬 [**PoetCut**](https://poetcut.online/) — AI video editor for Chinese talking-head creators, with speech cleanup, editable subtitles, chapter progress, and keyword highlights
+### [DingTalk-style Minutes](https://github.com/PoetCoderJun/dingtalk-style-minutes)
 
-✂️ [**clean-talking-video**](https://github.com/PoetCoderJun/clean-talking-video) — turn one raw talking video into an edited MP4 and a final SRT that matches the new timeline exactly
-
-🧩 [**MotionTalk**](https://github.com/PoetCoderJun/MotionTalk) — turn the edited video and final SRT into a motion-graphics video with one director approval and evidence-based delivery gates
-
----
-
-## ⭐ Featured work
-
-### [PoetCut](https://poetcut.online/)
-
-A creator-facing product for taking Chinese talking-head recordings from rough speech to an editable, publishable video. Public beta.
+Turn a phone recording, AI-recorder file, video, or existing ASR into an editable Feishu document with a concise overview, adaptive graphic minutes, evidence-linked notes, speaker-aware chapters, and the complete timestamped transcript.
 
 ### [clean-talking-video](https://github.com/PoetCoderJun/clean-talking-video)
 
-An Agent Skill focused on editorial judgment: it removes failed retakes and dead time without flattening intentional emphasis or changing the speaker's point.
+Turn one raw talking-head recording into an edited MP4 and a final SRT that matches the new timeline. The Skill removes failed retakes, filler, repetition, and dead time while preserving intentional emphasis.
 
 ### [MotionTalk](https://github.com/PoetCoderJun/MotionTalk)
 
-An Agent Skill for the post-editing stage. It plans when to keep the presenter, when MG makes an idea clearer, and packages the final video with captions, chapters, cumulative progress, and visual quality checks.
+Turn an edited video and its final SRT into a polished motion-graphics video. One director-plan approval controls presenter composition, MG, captions, chapters, progress, and visual quality gates.
+
+## How I build
+
+- editorial judgment before generation;
+- traceable intermediate artifacts instead of opaque one-shot output;
+- validation gates for timing, layout, completeness, and delivery;
+- workflows that remain inspectable and editable by humans.
+
+Most of my current work is designed for Chinese spoken content and creators, with English documentation for open-source collaborators.
