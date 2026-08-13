@@ -6,15 +6,7 @@ I'm an AI builder in Hong Kong. I build open Agent Skills that turn spoken media
 
 📕 [Xiaohongshu · 诗人程序员 Jun.AI](https://www.xiaohongshu.com/user/profile/5b40fe744eacab72c9f480ef) · 🎬 [PoetCut](https://poetcut.online/)
 
-## From speech to something people can use
-
-```text
-recording / talking video
-  ├─ dingtalk-style-minutes → graphic minutes + structured notes + full transcript
-  └─ clean-talking-video    → edited video + timeline-accurate SRT
-                                  ↓
-                              MotionTalk → motion-graphics video
-```
+## Projects
 
 ### [DingTalk-style Minutes](https://github.com/PoetCoderJun/dingtalk-style-minutes)
 
@@ -27,12 +19,3 @@ Turn one raw talking-head recording into an edited MP4 and a final SRT that matc
 ### [MotionTalk](https://github.com/PoetCoderJun/MotionTalk)
 
 Turn an edited video and its final SRT into a polished motion-graphics video. One director-plan approval controls presenter composition, MG, captions, chapters, progress, and visual quality gates.
-
-## How I build
-
-- editorial judgment before generation;
-- traceable intermediate artifacts instead of opaque one-shot output;
-- validation gates for timing, layout, completeness, and delivery;
-- workflows that remain inspectable and editable by humans.
-
-Most of my current work is designed for Chinese spoken content and creators, with English documentation for open-source collaborators.
