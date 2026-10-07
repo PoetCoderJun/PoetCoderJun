@@ -2,20 +2,28 @@
 
 **English** · [中文](README.zh-CN.md)
 
-I'm an AI builder in Hong Kong. I build open Agent Skills that turn spoken media into finished artifacts—not just model outputs.
+I'm an AI engineer and creator based in Hong Kong. I build Agent workflows and the harness around them: reviewable plans, explicit approval, evidence, validation, and usable artifacts.
 
-📕 [Xiaohongshu · 诗人程序员 Jun.AI](https://www.xiaohongshu.com/user/profile/5b40fe744eacab72c9f480ef) · 🎬 [PoetCut](https://poetcut.online/)
+My public projects focus on spoken media and document workflows, where planning, evidence and validation turn Agent output into something people can review and use.
 
-## Projects
+[LinkedIn](https://www.linkedin.com/in/huzujun/) · [X](https://x.com/poet_coder) · [Xiaohongshu · 诗人程序员 Jun.AI](https://www.xiaohongshu.com/user/profile/5b40fe744eacab72c9f480ef) · [PoetCut](https://poetcut.online/)
 
-### [DingTalk-style Minutes](https://github.com/PoetCoderJun/dingtalk-style-minutes)
-
-Turn a phone recording, AI-recorder file, video, or existing ASR into an editable Feishu document with a concise overview, adaptive graphic minutes, evidence-linked notes, speaker-aware chapters, and the complete timestamped transcript.
-
-### [clean-talking-video](https://github.com/PoetCoderJun/clean-talking-video)
-
-Turn one raw talking-head recording into an edited MP4 and a final SRT that matches the new timeline. The Skill removes failed retakes, filler, repetition, and dead time while preserving intentional emphasis.
+## Inspect the projects
 
 ### [MotionTalk](https://github.com/PoetCoderJun/MotionTalk)
 
-Turn an edited video and its final SRT into a polished motion-graphics video. One director-plan approval controls presenter composition, MG, captions, chapters, progress, and visual quality gates.
+Edited video + final SRT → a director plan → one approval → a packaged motion-graphics video.
+
+**Engineering evidence:** [Harness case study](https://github.com/PoetCoderJun/MotionTalk/blob/main/docs/harness-case-study.en.md), [plan validator](https://github.com/PoetCoderJun/MotionTalk/blob/main/scripts/validate_plan.py), [final validator](https://github.com/PoetCoderJun/MotionTalk/blob/main/scripts/validate_master.mjs), and [tests](https://github.com/PoetCoderJun/MotionTalk/tree/main/tests). Deterministic checks validate structure and recorded evidence; the Agent still judges visual meaning. Original repository material is non-commercial under CC BY-NC-SA 4.0; commercial use requires prior written permission.
+
+### [clean-talking-video](https://github.com/PoetCoderJun/clean-talking-video)
+
+Raw talking-head video → subtitle review → edited MP4 + SRT aligned to the new timeline. Preserves meaningful emphasis while removing failed takes, filler and dead time.
+
+**Engineering evidence:** [subtitle approval and rendering workflow](https://github.com/PoetCoderJun/clean-talking-video/blob/main/clean-talking-video/SKILL.md) and [tests](https://github.com/PoetCoderJun/clean-talking-video/tree/main/tests). ASR uses DashScope cloud audio upload; it is not a fully local workflow.
+
+### [DingTalk-style Minutes](https://github.com/PoetCoderJun/dingtalk-style-minutes)
+
+Recording or existing transcript → overview, editable Feishu graphic minutes, evidence-linked notes, and complete timestamped transcript.
+
+**Engineering evidence:** [workflow and dependency contract](https://github.com/PoetCoderJun/dingtalk-style-minutes/blob/master/skill/dingtalk-style-minutes/SKILL.md), [visual samples](https://github.com/PoetCoderJun/dingtalk-style-minutes/tree/master/examples/sections), and [tests](https://github.com/PoetCoderJun/dingtalk-style-minutes/tree/master/tests). Local ASR does not make Feishu delivery fully local.

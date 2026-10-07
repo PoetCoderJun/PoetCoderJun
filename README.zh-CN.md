@@ -2,20 +2,28 @@
 
 [English](README.md) · **中文**
 
-我是在香港工作的 AI Builder。我在做一组面向口述内容的开源 Agent Skills：目标不是让模型“生成点什么”，而是交付可以继续使用的成品。
+我是在香港工作的 AI 工程师与创作者。我构建 Agent 工作流，以及让它可交付的 Harness：可审查的计划、明确审批、证据、验证与可继续使用的成品。
 
-📕 [小红书 · 诗人程序员 Jun.AI](https://www.xiaohongshu.com/user/profile/5b40fe744eacab72c9f480ef) · 🎬 [PoetCut](https://poetcut.online/)
+我的公开作品主要围绕口述媒体与文档工作流：通过规划、证据与验证，把 Agent 的输出变成可以审阅、可以使用的成品。
 
-## 项目
+[LinkedIn](https://www.linkedin.com/in/huzujun/) · [X](https://x.com/poet_coder) · [小红书 · 诗人程序员 Jun.AI](https://www.xiaohongshu.com/user/profile/5b40fe744eacab72c9f480ef) · [PoetCut](https://poetcut.online/)
 
-### [DingTalk-style Minutes](https://github.com/PoetCoderJun/dingtalk-style-minutes)
-
-把手机录音、AI 录音笔文件、视频或现成 ASR，整理成一份可编辑的飞书文档：一段内容概览、自适应图文画板、带证据的层级纪要、说话人章节和完整时间戳转写。
-
-### [clean-talking-video](https://github.com/PoetCoderJun/clean-talking-video)
-
-把一条原始口播变成精剪 MP4，以及与新时间线严格匹配的最终 SRT。它会删除失败重说、口头禅、重复和无意义停顿，同时保留正常强调。
+## 从作品检查实现
 
 ### [MotionTalk](https://github.com/PoetCoderJun/MotionTalk)
 
-把精剪视频和最终 SRT 变成 MG 包装成片。一次导演计划确认后，完成出镜构图、MG、字幕、章节、进度和视觉质量门禁。
+精剪视频 + 最终 SRT → 导演计划 → 一次批准 → MG 包装成片。
+
+**工程证据：**[Harness 案例](https://github.com/PoetCoderJun/MotionTalk/blob/main/docs/harness-case-study.md)、[计划验证器](https://github.com/PoetCoderJun/MotionTalk/blob/main/scripts/validate_plan.py)、[成片验证器](https://github.com/PoetCoderJun/MotionTalk/blob/main/scripts/validate_master.mjs)与[测试](https://github.com/PoetCoderJun/MotionTalk/tree/main/tests)。确定性检查验证结构与已记录证据，画面语义仍由 Agent 判断。仓库原创内容采用 CC BY-NC-SA 4.0，仅限非商业使用；商业使用需事先获得书面许可。
+
+### [clean-talking-video](https://github.com/PoetCoderJun/clean-talking-video)
+
+原始口播 → 字幕审阅 → 精剪 MP4 + 与新时间线匹配的 SRT。删除失败重说、口头禅与无意义停顿，同时保留正常强调。
+
+**工程证据：**[字幕审批与渲染流程](https://github.com/PoetCoderJun/clean-talking-video/blob/main/clean-talking-video/SKILL.md)及[测试](https://github.com/PoetCoderJun/clean-talking-video/tree/main/tests)。ASR 会上传音频到 DashScope，不是全本地流程。
+
+### [DingTalk-style Minutes](https://github.com/PoetCoderJun/dingtalk-style-minutes)
+
+录音或现成转写 → 内容概览、可编辑飞书画板、带证据的纪要，以及完整时间戳转写。
+
+**工程证据：**[工作流与依赖契约](https://github.com/PoetCoderJun/dingtalk-style-minutes/blob/master/skill/dingtalk-style-minutes/SKILL.md)、[视觉样例](https://github.com/PoetCoderJun/dingtalk-style-minutes/tree/master/examples/sections)及[测试](https://github.com/PoetCoderJun/dingtalk-style-minutes/tree/master/tests)。本地 ASR 不等于飞书交付全本地。
