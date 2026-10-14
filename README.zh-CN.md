@@ -16,12 +16,6 @@
 
 **工程证据：**[Harness 案例](https://github.com/PoetCoderJun/MotionTalk/blob/main/docs/harness-case-study.md)、[计划验证器](https://github.com/PoetCoderJun/MotionTalk/blob/main/scripts/validate_plan.py)、[成片验证器](https://github.com/PoetCoderJun/MotionTalk/blob/main/scripts/validate_master.mjs)与[测试](https://github.com/PoetCoderJun/MotionTalk/tree/main/tests)。确定性检查验证结构与已记录证据，画面语义仍由 Agent 判断。仓库原创内容采用 CC BY-NC-SA 4.0，仅限非商业使用；商业使用需事先获得书面许可。
 
-### [clean-talking-video](https://github.com/PoetCoderJun/clean-talking-video)
-
-原始口播 → 字幕审阅 → 精剪 MP4 + 与新时间线匹配的 SRT。删除失败重说、口头禅与无意义停顿，同时保留正常强调。
-
-**工程证据：**[字幕审批与渲染流程](https://github.com/PoetCoderJun/clean-talking-video/blob/main/clean-talking-video/SKILL.md)及[测试](https://github.com/PoetCoderJun/clean-talking-video/tree/main/tests)。ASR 会上传音频到 DashScope，不是全本地流程。
-
 ### [DingTalk-style Minutes](https://github.com/PoetCoderJun/dingtalk-style-minutes)
 
 录音或现成转写 → 内容概览、可编辑飞书画板、带证据的纪要，以及完整时间戳转写。

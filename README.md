@@ -16,12 +16,6 @@ Edited video + final SRT → a director plan → one approval → a packaged mot
 
 **Engineering evidence:** [Harness case study](https://github.com/PoetCoderJun/MotionTalk/blob/main/docs/harness-case-study.en.md), [plan validator](https://github.com/PoetCoderJun/MotionTalk/blob/main/scripts/validate_plan.py), [final validator](https://github.com/PoetCoderJun/MotionTalk/blob/main/scripts/validate_master.mjs), and [tests](https://github.com/PoetCoderJun/MotionTalk/tree/main/tests). Deterministic checks validate structure and recorded evidence; the Agent still judges visual meaning. Original repository material is non-commercial under CC BY-NC-SA 4.0; commercial use requires prior written permission.
 
-### [clean-talking-video](https://github.com/PoetCoderJun/clean-talking-video)
-
-Raw talking-head video → subtitle review → edited MP4 + SRT aligned to the new timeline. Preserves meaningful emphasis while removing failed takes, filler and dead time.
-
-**Engineering evidence:** [subtitle approval and rendering workflow](https://github.com/PoetCoderJun/clean-talking-video/blob/main/clean-talking-video/SKILL.md) and [tests](https://github.com/PoetCoderJun/clean-talking-video/tree/main/tests). ASR uses DashScope cloud audio upload; it is not a fully local workflow.
-
 ### [DingTalk-style Minutes](https://github.com/PoetCoderJun/dingtalk-style-minutes)
 
 Recording or existing transcript → overview, editable Feishu graphic minutes, evidence-linked notes, and complete timestamped transcript.
