@@ -1,17 +1,12 @@
-<p align="center">
-  <img src="assets/profile-banner.svg" alt="Jun · 诗人程序员, AI engineer and creator in Hong Kong" width="100%">
-</p>
+# Hi, I'm Jun 👋
 
-<p align="center">
-  <strong>English</strong> · <a href="README.zh-CN.md">中文</a>
-  <br><br>
-  <a href="https://www.linkedin.com/in/huzujun/">LinkedIn</a>
-  · <a href="https://x.com/poet_coder">X</a>
-  · <a href="https://www.xiaohongshu.com/user/profile/5b40fe744eacab72c9f480ef">Xiaohongshu · 诗人程序员 Jun.AI</a>
-  · <a href="https://poetcut.online/">PoetCut</a>
-</p>
+**English** · [中文](README.zh-CN.md)
 
-I live in Hong Kong and build AI that has to survive contact with real work. Most of what I publish is an **open agent skill**: you install it in a personal agent, and it turns a messy input — a talking-head recording, a meeting, a job hunt — into something you can review, approve, and actually use.
+I'm an AI engineer and creator based in Hong Kong. I build Agent workflows and the harness around them: reviewable plans, explicit approval, evidence, validation, and usable artifacts.
+
+My public projects focus on spoken media and document workflows, where planning, evidence and validation turn Agent output into something people can review and use.
+
+[LinkedIn](https://www.linkedin.com/in/huzujun/) · [X](https://x.com/poet_coder) · [Xiaohongshu · 诗人程序员 Jun.AI](https://www.xiaohongshu.com/user/profile/5b40fe744eacab72c9f480ef) · [PoetCut](https://poetcut.online/)
 
 ## Open agent skills
 
@@ -30,7 +25,3 @@ LinkedIn auto-apply as a skill for personal agents — Grok Bot, OpenAI Dots, Cl
 ## Also online
 
 [PoetCut](https://poetcut.online/) is my AI talking-video editor for Chinese creators: upload a raw recording, cut the filler, and export a subtitled, chaptered video you can publish.
-
-## How I like to work
-
-I care less about a one-shot demo, and more about a workflow you can inspect: a plan you can approve, evidence you can check, and an artifact you can keep using.

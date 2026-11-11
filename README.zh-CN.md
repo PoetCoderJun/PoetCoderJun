@@ -1,17 +1,12 @@
-<p align="center">
-  <img src="assets/profile-banner.svg" alt="Jun · 诗人程序员，在香港做 AI 工程师和创作者" width="100%">
-</p>
+# 你好，我是 Jun 👋
 
-<p align="center">
-  <a href="README.md">English</a> · <strong>中文</strong>
-  <br><br>
-  <a href="https://www.linkedin.com/in/huzujun/">LinkedIn</a>
-  · <a href="https://x.com/poet_coder">X</a>
-  · <a href="https://www.xiaohongshu.com/user/profile/5b40fe744eacab72c9f480ef">小红书 · 诗人程序员 Jun.AI</a>
-  · <a href="https://poetcut.online/">PoetCut</a>
-</p>
+[English](README.md) · **中文**
 
-我在香港做 AI 工程师和创作者。公开作品大多是 **Agent Skill**：把它装进你的个人 Agent，一段口播、一场会议、一次求职，就能变成你能审、能改、能真正拿去用的成品。
+我是在香港工作的 AI 工程师与创作者。我构建 Agent 工作流，以及让它可交付的 Harness：可审查的计划、明确审批、证据、验证与可继续使用的成品。
+
+我的公开作品主要围绕口述媒体与文档工作流：通过规划、证据与验证，把 Agent 的输出变成可以审阅、可以使用的成品。
+
+[LinkedIn](https://www.linkedin.com/in/huzujun/) · [X](https://x.com/poet_coder) · [小红书 · 诗人程序员 Jun.AI](https://www.xiaohongshu.com/user/profile/5b40fe744eacab72c9f480ef) · [PoetCut](https://poetcut.online/)
 
 ## 开源的 Agent Skill
 
@@ -30,7 +25,3 @@
 ## 正在线上
 
 [PoetCut](https://poetcut.online/) 是我做的中文口播剪辑工具：上传原始录像，自动删废话，导出带字幕和章节的成片。
-
-## 我怎么做
-
-我不追求只能看一眼的演示，更在意一套你能检查的工作流：计划可以审批，证据可以核对，成品可以继续用。
